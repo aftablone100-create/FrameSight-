@@ -10,7 +10,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:label="FPS Meter"
+        android:label="FrameSight"
         android:theme="@style/Theme.FPSMeter"
         android:supportsRtl="true">
 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/status_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Overlay permission: checking..." android:textSize="14sp"/>
+        <Button android:id="@+id/btn_overlay_permission" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Grant Overlay Permission"/>
+
+        <TextView android:id="@+id/status_shizuku" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Shizuku: checking..." android:layout_marginTop="16dp" android:textSize="14sp"/>
+        <Button android:id="@+id/btn_shizuku_permission" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Grant Shizuku Permission"/>
+
+        <Switch android:id="@+id/switch_enable_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enable FPS Overlay" android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/btn_reset_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reset Overlay Position" android:layout_marginTop="8dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Font Size" android:layout_marginTop="20dp"/>
+        <SeekBar android:id="@+id/seek_font_size" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Padding"/>
+        <SeekBar android:id="@+id/seek_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Corner Radius"/>
+        <SeekBar android:id="@+id/seek_corner_radius" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Background Transparency"/>
+        <SeekBar android:id="@+id/seek_alpha" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Overlay Size"/>
+        <SeekBar android:id="@+id/seek_scale" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Update Interval (ms)"/>
+        <SeekBar android:id="@+id/seek_interval" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text Color" android:layout_marginTop="12dp"/>
+        <Spinner android:id="@+id/spinner_text_color" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Background Color"/>
+        <Spinner android:id="@+id/spinner_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
